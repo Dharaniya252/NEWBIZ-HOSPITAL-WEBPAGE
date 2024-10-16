@@ -1,0 +1,148 @@
+*
+{
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container1
+{
+    min-height:1400px;
+    padding:4.5% 0 6% 0;
+}
+.about h3
+{
+    text-align: center;
+    font-size:35px;
+}
+.about p
+{
+    font-size:15px;
+    margin-top:1.5%;
+    line-height:22px;
+    text-align: center;
+}
+.one
+{
+    margin:5% 0 0 8.5%;
+    font-size:15.5px;
+    line-height:26px;
+}
+.container1 .pic1
+{
+    float:right;
+    height:450px;
+    width:540px;
+    padding:6.5% 6% 0 0;
+  
+}
+.container1 .pic2
+{
+    width:450px ;
+    height:310px;
+    float: left;
+    padding:4.5% 0 0 6%;
+    
+    
+}
+.container1 .pic3
+{
+    height:310px;
+    width:470px;
+    float:right;
+    margin:7% 0 0 3.5%;
+    padding:0 5% 3% 0;
+}
+.two,.three,.four
+{
+    margin: 2% 0 0 8.5%;
+    font-size:14px;
+    display: inline-flex;
+    width: 600px;
+}
+.two .two1,.three .three1,.four .four1
+{
+    height:60px;
+    width:60px;
+    background-color: white;
+    border:#007aff 2px solid;
+    border-radius:33px;
+    margin-top: 2%;
+}
+.two .fa-rocket,.three .fa-eye
+{
+    font-size:23px;
+    color:#007aff;
+    padding-left:28%;
+    padding-top:33%;
+}  
+.four .fa-hand-holding-heart
+{
+    font-size:23px;
+    color:#007aff;
+    padding-left:32%;
+    padding-top:31%;
+}
+.two:hover .two1,
+.three:hover .three1
+{
+    background-color: #007aff;
+    color: white;
+}
+.two:hover .fa-rocket,
+.three:hover .fa-eye
+{
+    color:white;
+}
+.four:hover .four1
+{
+    background-color: #007aff;
+    color: white;
+}
+.four:hover .fa-hand-holding-heart
+{
+    color:white;
+}
+.two .two2,.three .three2,.four .four2
+{
+    margin-left:3%;
+    font-display:block;
+}
+.two .two2 p, .three .three2 p,.four .four2 p
+{
+    margin-top: 2%;
+    line-height:22px;
+}
+
+.five
+{
+    margin:6% 8% 0 47%;
+    font-size:16px;
+}
+.five h3
+{
+    font-size:30px;
+}
+.five p
+{
+    margin-top:4%;
+    line-height:24px;
+    font-size:15.2px;
+}
+
+.six
+{
+    margin:8% 0 0 8.5%;
+    font-size: 16px;
+}
+.six h3
+{
+    font-size:25px;
+    margin-bottom:3%;
+}
+.six p
+{
+    margin-top:2%;
+    line-height:24px;
+    font-size:15.2px;
+}

@@ -1,0 +1,155 @@
+*
+{
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container6
+{
+    height:580px;
+    background-color:rgb(172, 235, 121);
+}
+.container6
+{
+    padding-top: 5%;
+    font-size: 36px;
+    text-align: center;
+}
+.container6 p
+{
+    font-size: 14px;
+    
+    line-height: 22px;
+}
+.pic
+{
+    display: inline-flex;
+    padding-top:6%;
+    margin-bottom:7%;
+    column-gap: 40px;
+}
+.container6 .pic1,
+.container6 .pic2,
+.container6 .pic3,
+.container6 .pic4
+{
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    background-color: violet;
+    position: relative;
+    overflow: hidden;
+}
+.img1,.img2,.img3,.img4
+{
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    padding:0;
+}
+.pic1-body,.pic2-body,
+.pic3-body,.pic4-body
+{
+    height: 100%;
+    width:100%;
+    left: 0;
+    bottom:-100%;
+    background-color:#00438a8e;
+    backdrop-filter:transparent;
+    color: white;
+    border-radius:50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.30s;
+}
+.container6 .pic1-body,.pic2-body,
+.pic3-body,.pic4-body h4
+{
+    font-size:18px;
+}
+.container6 .pic1-body i,.pic2-body i,
+.pic3-body i,.pic4-body i
+{
+    font-size: 13px;
+}
+.pic1i
+{
+    margin:6% 0 0 0;
+    display:flex;
+    flex-direction:row;
+    column-gap:10px;
+    margin-left:33%;
+}
+.container6
+.fa-twitter,.fa-facebook,
+.fa-instagram,.fa-linkedin
+
+{
+    color:white;
+}
+.container6 
+.pic1:hover .pic1-body,
+.pic2:hover .pic2-body,
+.pic3:hover .pic3-body,
+.pic4:hover .pic4-body
+{
+    bottom:0;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+.container7
+{
+    background-color: rgb(196, 235, 226);
+    height:700px;
+}
+.clients
+{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 35px;
+}
+.clients p
+{
+    font-size: 14px;
+    line-height: 22px;
+}
+.lo1,.lo2
+{
+    display: inline-flex;
+    margin-left:9%;
+    margin-top:5%;
+    column-gap: 5px;
+}
+.lo2
+{
+    display: inline-flex;
+    margin-left:9%;
+    margin-top:2%;
+    column-gap: 5px;
+}
+.l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8
+{
+    background-color:white;
+    height: 160px;
+    width:270px;
+    padding:0;
+    
+}
+.logo1,.logo2,.logo3,.logo4,.logo5,.logo6,.logo7,.logo8
+{
+    height:90px;
+    width:190px;
+    padding: 11% 11% 0 0;
+}
+
+.logo1:hover
+{
+    transition:ease-in;
+}

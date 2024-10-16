@@ -1,0 +1,223 @@
+*
+{
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container2
+{
+    height:930px;
+    background-color: rgb(196, 235, 226);
+}
+.services
+{
+    display: block;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 5%;
+}
+.services h3
+{
+    font-size:35px;
+    margin-bottom:23px;
+}
+.services p
+{
+    font-size: 14px;
+    line-height: 22px;
+
+}
+.rec1
+{
+    width:350px;
+    height:180px;
+    background-color: white;
+    padding-left:4.7%;
+    padding-right:25px;
+    float: left;
+    margin-left:16%;
+    border-radius:16px;
+}
+.rec2
+{
+    width:350px;
+    height:180px;
+    background-color: white;
+    padding-left:4.7%;
+    padding-right:30px;
+    float:right;
+    margin-right:12%;
+    border-radius:16px;
+}
+.rec3,.rec5
+{
+    width:350px;
+    height:180px;
+    background-color: white;
+    padding-left:5%;
+    padding-right: 25px;
+    float: left;
+    margin-left: 16%;
+    margin-top:3%;
+    border-radius: 16px;
+}
+.rec4,.rec6
+{
+    width:350px;
+    height:180px;
+    background-color: white;
+    padding-left:5%;
+    padding-right:35px;
+    float:right;
+    margin-right:12%;
+    margin-top: 3%;
+    border-radius:16px;
+}
+.rec h4
+{
+    font-size: 18px;
+    padding-top: 10%;
+    display:inline-block;
+}
+.rec p
+{
+    font-size: 13.5px;
+    padding-top:5%;
+    line-height:22px;
+}
+.rec1:hover h4
+{
+    color:rgb(42, 190, 235);
+}
+.rec2:hover h4
+{
+    color:rgb(42, 190, 235);
+}
+.rec3:hover h4
+{
+    color:rgb(42, 190, 235);
+}
+.rec4:hover h4
+{
+    color:rgb(42, 190, 235);
+}
+.rec5:hover h4
+{
+    color:rgb(42, 190, 235);
+}
+.rec6:hover h4
+{
+    color:rgb(42, 190, 235); 
+}
+
+
+.container3
+{
+    height:750px;
+    background-color:rgb(4,53,154);
+    color: white;
+    text-align: center;
+}
+.choose
+{
+   padding-top:4%;
+   font-size: 36px;
+}
+.container3 p
+{
+   margin-top:1%;
+   margin-bottom: 4%;
+   line-height:22px;
+   font-size: 14px;
+}
+.container3 h3
+{
+    font-size:35px;
+}
+.bx
+{
+    display: inline-flex;
+    column-gap:60px;
+    margin-left:2%;
+}
+.bx1,.bx2,.bx3
+{
+    width:320px;
+    height:300px;
+    background-color:rgb(4,53,130);
+    padding-right:2%;
+    padding-left: 2%;
+    border-radius: 15px;
+}
+.bx1:hover
+{
+    background-color:rgb(12, 5, 116);
+}
+.bx2:hover
+{
+    background-color:rgb(12, 5, 116);
+}
+.bx3:hover
+{
+    background-color:rgb(12, 5,116);
+}
+.fa-hospital,.fa-check,.fa-users
+{
+    font-size: 45px;
+    margin-top:13%;
+}
+.bx h4
+{
+    margin-top:8%;
+    font-size: 22px;
+}
+.bx p
+{
+    margin-top:3.5%;
+    line-height: 23px;
+    margin-bottom:10%;
+}
+a
+{
+    color: white;
+}
+.number
+{
+    color:white;
+    padding-top:4%;
+    padding-bottom: 5%;
+}
+.number h1
+{
+    font-size: 40px;
+}
+.number p
+{
+  padding-top: 5%;
+  font-size: 14px;
+}
+.num1
+{
+    display: inline-block;
+    margin-left:5%;
+    text-align: center;
+}
+.num2
+{
+    display: inline-block;
+    margin-left: 13%;
+    text-align: center;
+}
+.num3
+{
+    display: inline-block;
+    margin-left: 13%;
+    text-align: center;
+}
+.num4
+{
+    display: inline-block;
+    margin-left: 13%;
+    text-align: center;
+}

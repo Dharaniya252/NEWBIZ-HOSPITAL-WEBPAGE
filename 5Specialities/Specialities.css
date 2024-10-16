@@ -1,0 +1,331 @@
+*
+{
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container4
+{
+    background-color:white;
+    height:1380px;
+    padding:4%;
+}
+.portfolio
+{
+    font-size: 37px;
+    text-align: center;
+}
+
+.container4 p
+{
+    font-size:14px;
+    line-height: 22px;
+    margin-top:3%;
+    text-align: center;
+    
+    
+}
+/* .container4 ul,li
+{
+    display: inline-block;
+}
+.container4 li
+{
+    font-size: 12px;
+    background-color:rgb(214, 234, 248) ;
+    padding:8px 18px 8px 18px;
+    border-radius: 25px;
+    margin-left:20px;
+}
+.container4 ul
+{
+   margin-top: 3%;
+   margin-left:35% ;
+}
+.container4 li:hover
+{
+    background-color:rgb(40, 176, 230);
+    color: white;
+} */
+
+
+.container4 .card
+{
+padding-top:4%;
+padding-left:6%;
+display: inline-flex;
+}
+.container4 .cardc1
+{
+    display: flex;
+    flex-direction: column;
+}
+.container4 .card1
+{
+    height:350px;
+    width:350px;
+    background-color: violet;
+    border-radius:5%;
+    overflow: hidden;
+    position: relative;
+    
+}
+.container4 .cd1
+{
+    height:350px;
+    width:350px;
+    padding:0;
+    margin:0;
+    border-radius:5%;
+}
+
+.container4 .card2
+{
+    height:500px;
+    width:350px;
+    background-color: violet;
+    border-radius:5%;
+    overflow: hidden;
+    position: relative;
+    margin-top:8%;
+}
+.container4 .cd2
+{
+    height:500px;
+    width:350px;
+    padding:0;
+    margin:0;
+    border-radius:5%;
+}
+.container4 .card3
+{
+    height:250px;
+    width:350px;
+    background-color: violet;
+    border-radius:5%;
+    margin-top:8%;
+    overflow: hidden;
+    position: relative;
+}
+.container4 .cd3
+{
+    height:250px;
+    width:350px;
+    padding:0;
+    margin:0;
+    border-radius:5%;
+}
+.container4 .cardc2
+{
+    display: flex;
+    flex-direction: column;
+    margin-left:3%;
+}
+.container4 .card4
+{
+    height:230px;
+    width:350px;
+    background-color: violet;
+    border-radius:5%;
+    overflow: hidden;
+    position: relative;
+}
+.container4 .cd4
+{
+    height:230px;
+    width:350px;
+    padding:0;
+    margin:0;
+    border-radius:5%;
+}
+.container4 .card5
+{
+    height:520px;
+    width:350px;
+    background-color: violet;
+    border-radius:5%;
+    margin-top:8%;
+    overflow: hidden;
+    position: relative;
+}
+.container4 .cd5
+{
+    height:520px;
+    width:350px;
+    padding:0;
+    margin:0;
+    border-radius:5%;
+}
+.container4 .card6
+{
+    height:250px;
+    width:350px;
+    background-color: violet;
+    border-radius:5%;
+    margin-top:8%;
+    overflow: hidden;
+    position: relative;
+}
+.container4 .cd6
+{
+    height:250px;
+    width:350px;
+    padding:0;
+    margin:0;
+    border-radius:5%;
+}
+.container4 .cardc3
+{
+    display:flex;
+    flex-direction: column;
+    margin-left:3%;
+}
+.container4 .card7
+{
+    height:520px;
+    width:350px;
+    background-color: violet;
+    border-radius:5%;
+    overflow: hidden;
+    position: relative;
+}
+.container4 .cd7
+{
+    height:520px;
+    width:350px;
+    padding:0;
+    margin:0;
+    border-radius:5%;
+}
+.container4 .card8
+{
+    height:230px;
+    width:350px;
+    background-color: violet;
+    border-radius:5%;
+    margin-top:8%;
+    overflow: hidden;
+    position: relative;
+}
+.container4 .cd8
+{
+    height:230px;
+    width:350px;
+    padding:0;
+    margin:0;
+    border-radius:5%;
+}
+.container4 .card9
+{
+    height:250px;
+    width:350px;
+    background-color: violet;
+    border-radius:5%;
+    margin-top:8%;
+    overflow: hidden;
+    position: relative;
+}
+.container4 .cd9
+{
+    height:250px;
+    width:350px;
+    padding:0;
+    margin:0;
+    border-radius:5%;
+}
+.card1-body,.card2-body,
+.card3-body,.card4-body,
+.card5-body,.card6-body,
+.card7-body,.card8-body,
+.card9-body
+{
+    height:100%;
+    width:100%;
+    top:0;
+    right:-100%;
+    position: absolute;
+    background:#00438a88;
+    backdrop-filter:blur(5px);
+    border-radius:5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+   
+.card1 h3 ,.card2 h3,.card3 h3,
+.card4 h3,.card5 h3,.card6 h3,
+.card7 h3,.card8 h3,.card9 h3
+{
+    font-size:28px;
+    
+}
+
+/* .card1 p ,.card2 p,.card3 p,
+.card4 p,.card5 p,.card6 p,
+.card7 p,.card8 p,.card9 p
+{
+    margin-top:3%;
+    margin-left:45%;
+    font-size:15px;
+} */
+
+/* .card1 .card1-icon,
+.card2 .card2-icon,
+.card3 .card3-icon,
+.card4 .card4-icon,
+.card5 .card5-icon,
+.card6 .card6-icon,
+.card7 .card7-icon,
+.card8 .card8-icon,
+.card9 .card9-icon
+{
+    display: inline-flex;
+    margin-left:38.5%;
+    margin-top:4%;
+} */
+
+/* .card1 .card1-icon1,
+.card2 .card2-icon1,
+.card3 .card3-icon1,
+.card4 .card4-icon1,
+.card5 .card5-icon1,
+.card6 .card6-icon1,
+.card7 .card7-icon1,
+.card8 .card8-icon1,
+.card9 .card9-icon1
+{
+    width:36px;
+    height:36px;
+    background-color:rgb(40, 176, 230);
+    border-radius:18px;
+} */
+
+/* .fa-plus
+{
+    font-size:15px;
+    padding:10px 0 0 12px;
+} */
+
+
+/* .fa-link
+{
+    font-size:13px;
+    padding:11px 0 0 10px;
+} */
+
+.card1:hover .card1-body,
+.card2:hover .card2-body,
+.card3:hover .card3-body,
+.card4:hover .card4-body,
+.card5:hover .card5-body,
+.card6:hover .card6-body,
+.card7:hover .card7-body,
+.card8:hover .card8-body,
+.card9:hover .card9-body
+{
+    right:0;
+}
